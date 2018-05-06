@@ -43,7 +43,7 @@ export default {
         if (result.val()) {
           this.memos = result.val();
         }
-      }
+      })
   },
   methods: {
     logout: function () {
